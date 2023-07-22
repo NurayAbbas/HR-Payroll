@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  /* header */
+  hr {
+    opacity: 0.1;
+  }
+  
+  .vl {
+    border-right: 1px solid white;
+    height: 150%;
+    position: absolute;
+    left: 22.5%;
+    top: 0;
+  
+    opacity: 0.1;
+  }
+  .header {
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 25px;
+  }
+  
+  .search {
+    position: absolute;
+    left: 378px;
+  }
+  .search i {
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    background-color: rgb(37, 37, 37);
+    font-size: 18px;
+    padding: 7px;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  
+  .search input {
+    background-color: rgb(37, 37, 37);
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid transparent;
+  }
+  
+  input::placeholder {
+    padding-left: 50px;
+    color: white;
+    opacity: 0.7;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+  }
+  .icons a {
+    margin-right: 15px;
+  }
+  .icons a:last-child i {
+    width: 115%;
+    height: 65%;
+  }
+  .fa-gear,
+  .fa-bell {
+    color: white;
+    opacity: 0.7;
+    background-color: #1e1e1e;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .dot {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dot::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 6px;
+    height: 6px;
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  /* aside */
+  .sidebar ul {
+    list-style-type: none;
+    margin-top: 5px;
+  }
+  
+  .sidebar ul li {
+    border: 0px solid white;
+    width: 250px;
+    height: 20px;
+    border-radius: 0px 35px 35px 0px;
+  }
+  
+  .list li i {
+    margin-right: 10px;
+    background-color: transparent;
+  }
+  
+  .list li {
+    padding: 15px;
+    padding-left: 20px;
+    color: #898989;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .list .last {
+    white-space: nowrap;
+  }
+  .list .last:hover {
+    white-space: pre-wrap;
+    width: 200px;
+    height: 30px;
+  }
+  .list li:hover, .list li.active {
+    background-image: linear-gradient(107.3deg, #6e38e0 13.39%, #ff5f36 77.64%);
+    opacity: 15;
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* page-title */
+  .main-top {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+  }
+  .main-top h1 {
+    margin: 15px 0px 15px 10px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .latest select {
+  
+    border-radius: 30px;
+   
+    color: white;
+  
+    display: inline-block;
+    height: 20px;
+    width: 140px;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(37, 37, 37);
+    font-family: "Raleway", sans-serif;
+  
+  }
+  
+  .latest {
+    position: absolute;
+    left: 950px;
+    top: 18px;
+  }
+  
+  /* main-table */
+  
+  .main-table {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-collapse: collapse;
+    width: 73%;
+    position: absolute;
+    left: 25%;
+    top: 28%;
+  }
+  .arrow-icons {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .arrow-icons i {
+    background-color: transparent;
+    font-size: 10px;
+  }
+  
+  .specific {
+    display: flex;
+    margin-right: 70px;
+    align-items: center;
+  }
+  .specific i {
+    margin-right: 3px;
+  }
+  .t-body tr {
+    border-bottom: 1px solid #727272;
+    text-align: center;
+  }
+  
+  .main-table thead th {
+    color: #898989;
+    background-color: #262626;
+    border-bottom: 1px solid transparent;
+    padding: 5px;
+    font-size: 15px;
+  }
+  
+  .main-table thead th:first-of-type {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .main-table thead th:last-of-type {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+  }
+  
+  tbody td {
+    padding: 11px;
+    white-space: nowrap;
+  }
+  tbody td img {
+    vertical-align: middle;
+  }
+  tbody img {
+    margin-right: 10px;
+  }

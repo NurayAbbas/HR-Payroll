@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+  /*header*/
+  hr {
+      opacity: 0.1;
+    }
+    
+    .vl {
+      border-right: 1px solid white;
+      height: 150%;
+      position: absolute;
+      left: 22.5%;
+      top: 0;
+    
+      opacity: 0.1;
+    }
+    .header {
+      display: flex;
+    
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      padding-left:25px ;
+    }
+  
+    .search{
+      position: absolute;
+      left: 325px;
+   } 
+   .search i{
+       color:#fff;
+       position:absolute;
+       left: 10px;
+       background-color: rgb(37, 37, 37);
+       font-size: 18px;
+       padding: 7px;
+       border-radius: 5px;
+       opacity: 0.7;
+   }
+   
+   .search input{
+       background-color: rgb(37, 37, 37);
+       width: 350px;
+       height: 30px;
+       border-radius: 20px;
+       outline: none;
+       border: 1px solid transparent;
+      
+   }
+   
+   input::placeholder{
+   padding-left: 50px;
+   color: white;
+   opacity: 0.7;
+   font-family: 'Raleway', sans-serif;
+   }
+  
+   .icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 150px;
+      align-items: center;
+    }
+    .icons a {
+      margin-right: 15px;
+    }
+    .icons a:last-child i {
+      width: 115%;
+      height: 65%;
+    }
+    .fa-gear,
+    .fa-bell {
+      color: white;
+      opacity: 0.7;
+      background-color: #1e1e1e;
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .dot {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dot::after {
+      content: "";
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      width: 6px;
+      height: 6px;
+      background-color: green;
+      border-radius: 50%;
+    } 
+                         
+  /*aside*/
+   .sidebar ul{
+      list-style-type: none;
+       margin-top: 5px;
+  }
+  
+  .sidebar ul li{
+      border: 0px solid white;
+      width: 250px;
+      height: 20px;
+      border-radius: 0px 35px 35px 0px;
+      
+  }
+  
+  
+  .list li i{
+      margin-right: 10px;
+      background-color: transparent;
+  }
+  
+  .list li{
+   padding: 15px;
+   padding-left: 20px;
+   color: #898989;
+   font-family: 'Raleway', sans-serif;
+  }
+  
+  .list .last{
+      white-space: nowrap;
+  }
+  .list .last:hover{
+      white-space: pre-wrap;
+      width: 200px;
+      height: 30px;
+  }
+  .list li:hover, .list li.active{
+      background-image: linear-gradient(107.3deg, #6E38E0 13.39%, #FF5F36 77.64%);
+      opacity: 15;
+      font-weight: bolder;
+      cursor: pointer;
+      color: white;
+      
+  } 
+  
+/*page-title*/
+   .main-top {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+  }
+  .main-top h1{
+  margin: 15px 0px 15px 10px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  }
+  
+  .latest select{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+   display: inline-block;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+  
+  .latest{
+  position: absolute; 
+   left: 275%;
+   top: 18px; 
+  }
+  .latest span i {
+    background-color: transparent;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 13px; 
+  }
+ 
+  /* cards */
+ .cards {
+   margin-top: 150px;
+   margin-left: 362px;
+   display: flex;
+ }
+ .cards img {
+   width: 46px;
+   height: 46px;
+   background-color: transparent;
+ }
+ .card {
+   display: flex;
+   width: 315px;
+   height: 76px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .first {
+   background: linear-gradient(
+     90deg,
+     rgba(50, 170, 200, 1) 2%,
+     rgba(10, 5, 5, 1) 2%,
+     rgba(32, 95, 113, 1) 97%
+   );
+ }
+ .text {
+   color: white;
+   display: flex;
+   flex-direction: column;
+   background-color: transparent;
+ }
+ .text span {
+   background-color: transparent;
+ }
+ .card-icon {
+   background-color: transparent;
+ }
+ .card-icon i {
+   color: white;
+   background-color: #1e1e1e;
+   padding: 10px;
+   font-size: 12px;
+   border-radius: 50%;
+ }
+ 
+ .text span:last-child {
+   color: #898989;
+   font-size: 12px;
+ }
+ 
+ .second {
+   background: linear-gradient(
+     90deg,
+     rgba(204, 4, 4, 1) 2%,
+     rgba(9, 0, 0, 1) 2%,
+     rgba(57, 7, 11, 1) 97%
+   );
+ }
+ 
+ .third {
+   background: linear-gradient(
+     90deg,
+     rgba(195, 199, 23, 1) 2%,
+     rgba(0, 0, 0, 1) 2%,
+     rgba(62, 62, 28, 1) 99%
+   );
+ }
+ 
+ .title {
+   color: white;
+   font-family: "Raleway", sans-serif;
+   background-color: transparent;
+   margin-top: 100px;
+   margin-left: 362px;
+ }
+ .project-boxes {
+   margin-top: 100px;
+   display: flex;
+   margin-left: 362px;
+ }
+ .box {
+   width: 315px;
+   height: 182px;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+ .box img {
+   background-color: transparent;
+ }
+ .detailes,
+ .detailes p,
+ .detailes p i {
+   background-color: transparent;
+ }
+ .detailes {
+   display: flex;
+ }
+ .detailes p {
+   color: #898989;
+   border: 1px solid transparent;
+   height: 25px;
+   width: 100px;
+   border-radius: 15px;
+   text-align: center;
+   font-size: 15px;
+   line-height: 25px;
+   background-color: rgb(37, 37, 37);
+   opacity: 0.7;
+   margin-left: 10px;
+ }
+ .detailes p i {
+   margin-right: 2px;
+   font-size: 12px;
+ }
+ .paragraph {
+   background-color: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-left: 12px;
+ }
+ .paragraph h1 {
+   background-color: transparent;
+   color: white;
+   font-size: 38px;
+ }
+ .contents {
+   background-color: transparent;
+   display: flex;
+   align-items: baseline;
+ }
+ span {
+   background-color: transparent;
+ }
+ .contents span {
+   color: #898989;
+   margin-left: 5px;
+ }
+ .context {
+   color: #00b85e;
+ }
+ .card-1 {
+   background: linear-gradient(
+     90deg,
+     rgba(50, 170, 200, 1) 2%,
+     rgba(10, 5, 5, 1) 2%,
+     rgba(32, 95, 113, 1) 97%
+   );
+ }
+ .card-2 {
+   background: linear-gradient(
+     90deg,
+     rgba(204, 4, 4, 1) 2%,
+     rgba(9, 0, 0, 1) 2%,
+     rgba(57, 7, 11, 1) 97%
+   );
+ }
+ .card-3 {
+   background: linear-gradient(
+     90deg,
+     rgba(195, 199, 23, 1) 2%,
+     rgba(0, 0, 0, 1) 2%,
+     rgba(62, 62, 28, 1) 99%
+   );
+ }
