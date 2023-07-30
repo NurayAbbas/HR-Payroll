@@ -4,14 +4,10 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
-body {
-  background-color: black;
-}
+
 /*header*/
-
-
-
 hr {
   opacity: 0.1;
 }
@@ -36,7 +32,7 @@ hr {
 
 .search {
   position: absolute;
-  left: 370px;
+  left: 378px;
 }
 .search i {
   color: #fff;
@@ -54,7 +50,7 @@ hr {
   width: 350px;
   height: 30px;
   border-radius: 20px;
-
+  outline: none;
   border: 1px solid transparent;
 }
 
@@ -137,8 +133,7 @@ input::placeholder {
   width: 200px;
   height: 30px;
 }
-.list li:hover,
-.list li.active {
+.list li:hover {
   background-image: linear-gradient(107.3deg, #6e38e0 13.39%, #ff5f36 77.64%);
   opacity: 15;
   font-weight: bolder;
@@ -149,7 +144,7 @@ input::placeholder {
 /*page-title*/
 .main-top {
   position: absolute;
-  left: 24%;
+  left: 23%;
   top: 15%;
 }
 .main-top h1 {
@@ -157,22 +152,10 @@ input::placeholder {
   color: white;
   font-family: "Raleway", sans-serif;
 }
-.main-top h2 {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  position: absolute;
-  left: 38%;
-  top: 43%;
-  background-color: transparent;
-  font-weight: bold;
-}
-.main-top img {
-  width: 1050px;
-}
+
 .latest select {
   border: 1px solid transparent;
   border-radius: 30px;
-  color: white;
   display: inline-block;
   height: 40px;
   width: 140px;
@@ -181,167 +164,89 @@ input::placeholder {
   background-color: rgb(37, 37, 37);
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+  color: #898989;
 }
 
 .latest {
   position: absolute;
-  top: 16px;
-  right: 3px;
+  left: 950px;
+  top: 20px;
 }
+
 .latest span i {
   background-color: transparent;
-  margin-left: 15px;
-  margin-bottom: 5px;
-  font-size: 13px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.main-top .fa-user {
+  margin-left: 20px;
+}
+
+/* links */
+.links a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.links {
+  position: absolute;
+  top: 24%;
+  right: 125px;
+}
+
+.links a:hover {
+  transition: 1 all;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(107.3deg, #6e38e0 13.39%, #ff5f36 77.64%);
+  border-image-slice: 1;
+  padding-bottom: 20px;
 }
 
 /* cards */
-.cards {
-  margin-top: 30px;
-  margin-left: 415px;
-  display: flex;
-}
-.cards img {
-  width: 46px;
-  height: 46px;
-  background-color: transparent;
-}
-.card {
-  display: flex;
-  width: 315px;
-  height: 76px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.first {
-  background: linear-gradient(
-    90deg,
-    rgba(50, 170, 200, 1) 2%,
-    rgba(10, 5, 5, 1) 2%,
-    rgba(32, 95, 113, 1) 97%
-  );
-}
-.text {
+
+.cards h3 {
   color: white;
-  display: flex;
-  flex-direction: column;
-  background-color: transparent;
-}
-.text span {
-  background-color: transparent;
-}
-.card-icon {
-  background-color: transparent;
-}
-.card-icon i {
-  color: white;
-  background-color: #1e1e1e;
-  padding: 10px;
-  font-size: 12px;
-  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
 }
 
-.text span:last-child {
-  color: #898989;
-  font-size: 12px;
-}
-
-.second {
-  background: linear-gradient(
-    90deg,
-    rgba(204, 4, 4, 1) 2%,
-    rgba(9, 0, 0, 1) 2%,
-    rgba(57, 7, 11, 1) 97%
-  );
-}
-
-.third {
-  background: linear-gradient(
-    90deg,
-    rgba(195, 199, 23, 1) 2%,
-    rgba(0, 0, 0, 1) 2%,
-    rgba(62, 62, 28, 1) 99%
-  );
-}
-
-.title {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  background-color: transparent;
-  margin-top: 40px;
-  margin-left: 375px;
-}
-.project-boxes {
-  margin-top: 55px;
-  display: flex;
-  margin-left: 415px;
-}
-.box {
-  width: 315px;
-  height: 182px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.box img {
-  background-color: transparent;
-}
-.detailes,
-.detailes p,
-.detailes p i {
-  background-color: transparent;
-}
-.detailes {
-  display: flex;
-}
-.detailes p {
-  color: #898989;
+.cards .card {
   border: 1px solid transparent;
-  height: 25px;
-  width: 100px;
-  border-radius: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
   text-align: center;
-  font-size: 15px;
-  line-height: 25px;
-  background-color: rgb(37, 37, 37);
-  opacity: 0.7;
-  margin-left: 10px;
 }
-.detailes p i {
-  margin-right: 2px;
-  font-size: 12px;
+.cards .card img{
+  width: 47px;
+    height: 47px;
 }
-.paragraph {
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-left: 27%;
+  position: absolute;
+  top: 30%;
+}
+.topic{
   background-color: transparent;
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-left: 12px;
+    flex-direction: column;
+    align-items: center;
+    height: 164px;
+    justify-content: center;
 }
-.paragraph h1 {
-  background-color: transparent;
-  color: white;
-  font-size: 38px;
-}
-.contents {
-  background-color: transparent;
-  display: flex;
-  align-items: baseline;
-}
-span {
+.topic h3{
   background-color: transparent;
 }
-.contents span {
-  color: #898989;
-  margin-left: 5px;
+.card
+.cards h3,
+img {
+  background-color: transparent;
 }
-.context {
-  color: #00b85e;
-}
-.card-1 {
+.cards .first {
+ 
   background: linear-gradient(
     90deg,
     rgba(50, 170, 200, 1) 2%,
@@ -349,7 +254,8 @@ span {
     rgba(32, 95, 113, 1) 97%
   );
 }
-.card-2 {
+.cards .second {
+ 
   background: linear-gradient(
     90deg,
     rgba(204, 4, 4, 1) 2%,
@@ -357,11 +263,67 @@ span {
     rgba(57, 7, 11, 1) 97%
   );
 }
-.card-3 {
+
+.cards .third {
+ 
   background: linear-gradient(
     90deg,
     rgba(195, 199, 23, 1) 2%,
     rgba(0, 0, 0, 1) 2%,
     rgba(62, 62, 28, 1) 99%
   );
+}
+
+
+
+/* information */
+
+.information{
+  margin-left: 24px;
+ 
+}
+.box{
+  margin-left:  57px;
+}
+.box .image {
+  overflow: hidden;
+  width: 970px;
+}
+.information h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px 0px 15px 340px;
+}
+
+.information .text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  margin-left: 18%;
+  margin-top: 1%;
+}
+
+.icon i {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  right: 250px;
+  padding-top: 65px;
+  background-color: transparent;
+}
+.image {
+  display: flex;
+  margin-left: 328px;
+  margin-bottom: 25px;
+}
+
+.text {
+  position: absolute;
+  left: 18%;
+  padding-top: 30px;
+}
+
+.text h2,
+p {
+  background-color: transparent;
 }

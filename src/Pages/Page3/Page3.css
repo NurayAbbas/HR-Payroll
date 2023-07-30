@@ -72,10 +72,10 @@ hr {
   .icons a {
     margin-right: 15px;
   }
-  .icons a:last-child i {
+  /* .icons a:last-child i {
     width: 115%;
     height: 65%;
-  }
+  } */
   .fa-gear,
   .fa-bell {
     color: white;

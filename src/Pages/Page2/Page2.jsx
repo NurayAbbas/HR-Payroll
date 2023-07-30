@@ -18,10 +18,10 @@ function Page2() {
       <main>
         <div class="page-title">
           <div class="main-top">
-            <h1>Gaji Dan Tunjangan</h1>
+            <h1>Salaries and allowances</h1>
             <div class="latest">
               <span>
-                Tambah Data
+              Add Data
                 <FontAwesomeIcon icon={faPlus} />
               </span>
             </div>
@@ -32,13 +32,13 @@ function Page2() {
           <thead>
             <tr>
               <th>NIK</th>
-              <th>Nama Karyawan</th>
-              <th>Jabatan</th>
-              <th>Gaji Pokok</th>
-              <th>Tunjangan Transport</th>
-              <th>Uang Makan</th>
-              <th>Potongan</th>
-              <th>Total Gaji</th>
+              <th>Employee name</th>
+              <th>Department</th>
+              <th>Salary</th>
+              <th>Transport allowance</th>
+              <th>Meal allowance</th>
+              <th>Piece</th>
+              <th>Total salary</th>
             </tr>
           </thead>
           <tbody>
@@ -60,7 +60,7 @@ function Page2() {
               <td>00124</td>
               <td>
                 <img src={Ellipse92} alt="profile" />
-                Amalia putri
+                Amalia Putri
               </td>
               <td>Financial Analyst</td>
               <td>Rp.6.000.000</td>

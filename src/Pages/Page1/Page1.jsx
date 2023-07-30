@@ -21,7 +21,7 @@ function Page1() {
     <main>
       <div className="page-title">
         <div className="main-top">
-          <h1>Data Karyawan</h1>
+          <h1>Employee Data</h1>
           <div className="latest">
             <select name="">
               
@@ -35,11 +35,11 @@ function Page1() {
       <table className="main-table">
         <thead className="t-head">
           <tr>
-            <th>Nama Karyawan</th>
+            <th>Employee name</th>
             <th>NIK</th>
-            <th>Status Karyawan</th>
-            <th>Jabatan</th>
-            <th>Tanggal Masuk</th>
+            <th>Employee status</th>
+            <th>Department</th>
+            <th>Date of entry</th>
             <th>
               APPLICATION DATE
               <div className="arrow-icons">
@@ -55,7 +55,7 @@ function Page1() {
               <img src={Ellipse91} alt="profile" />Davin Putra F
             </td>
             <td>00123</td>
-            <td>Karyawan Tetap</td>
+            <td>Permanent employees</td>
             <td>Sr. UX Designer</td>
             <td>12/02/20</td>
 
@@ -69,10 +69,10 @@ function Page1() {
 
           <tr>
             <td>
-              <img src={Ellipse92} alt="profile" />Amalia putri
+              <img src={Ellipse92} alt="profile" />Amalia Putri
             </td>
             <td>00124</td>
-            <td>Karyawan Tetap</td>
+            <td>Permanent employees</td>
             <td>Financial Analyst</td>
             <td>04/01/20</td>
 
@@ -89,7 +89,7 @@ function Page1() {
               <img src={Ellipse93} alt="profile" />Sakanti Dwi
             </td>
             <td>00125</td>
-            <td>Karyawan Tetap</td>
+            <td>Permanent employees</td>
             <td>Financial Analyst</td>
             <td>05/03/20</td>
 
@@ -106,7 +106,7 @@ function Page1() {
               <img src={Ellipse94} alt="profile" />Ria Kusuma
             </td>
             <td>00126</td>
-            <td>Karyawan Tetap</td>
+            <td>Permanent employees</td>
             <td>Sr. UX Designer</td>
             <td>24/12/21</td>
 
@@ -123,7 +123,7 @@ function Page1() {
               <img src={Ellipse9} alt="profile" />Shofil Fuadi
             </td>
             <td>00127</td>
-            <td>Karyawan Tetap</td>
+            <td>Permanent employees</td>
             <td>Growth Manager</td>
             <td>18/02/22</td>
 

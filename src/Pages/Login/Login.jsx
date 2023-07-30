@@ -39,7 +39,7 @@ function Login() {
               <div className="form">
                 <input onChange={(e) => setAuthData({ ...authData, username: e.target.value })} id="username" className="username" type="text" placeholder="Username" />
 
-                <input onChange={(e) => setAuthData({ ...authData, password: e.target.value })} id="password" className="password" type="text" placeholder="Password" />
+                <input onChange={(e) => setAuthData({ ...authData, password: e.target.value })} id="password" className="password" type="password" placeholder="Password" />
               </div>
             </div>
             <div className="form-text">

@@ -20,7 +20,7 @@ function Page3() {
     <main>
       <div className="page-title">
         <div className="main-top">
-          <h1>Pelatihan</h1>
+          <h1>Training</h1>
           <div className="latest">
             <input type="search" placeholder="Search" />
             <i className="fa-solid fa-magnifying-glass"></i>
@@ -31,14 +31,14 @@ function Page3() {
         <thead className="t-head">
           <tr>
             <th className="head-arrows">
-              <p>Kode Pelatihan</p>
+              <p>Training code</p>
               <div className="arrow-icons">
                 <i className="fa-solid fa-sort-up"></i>
                 <i className="fa-solid fa-sort-down"></i>
               </div>
             </th>
             <th className="head-arrows">
-              <p>Nama Karyawan</p>
+              <p>Employee name</p>
               <div className="arrow-icons second">
                 <i className="fa-solid fa-sort-up"></i>
                 <i className="fa-solid fa-sort-down"></i>
@@ -51,10 +51,10 @@ function Page3() {
                 <i className="fa-solid fa-sort-down"></i>
               </div>
             </th>
-            <th>Topik</th>
-            <th>Pengajar</th>
-            <th>Tanggal Pelatihan</th>
-            <th>Diambil</th>
+            <th>Topic</th>
+            <th>Teacher</th>
+            <th>Training date</th>
+            <th>Taken</th>
           </tr>
         </thead>
         <tbody className="t-body">
@@ -70,7 +70,7 @@ function Page3() {
 
             <td>
               <div className="specific">
-                <span>Ya</span>
+                <span>Yes</span>
               </div>
             </td>
           </tr>
@@ -87,7 +87,7 @@ function Page3() {
 
             <td>
               <div className="specific">
-                <span>Ya</span>
+                <span>Yes</span>
               </div>
             </td>
           </tr>
@@ -104,7 +104,7 @@ function Page3() {
 
             <td>
               <div className="specific">
-                <span>Ya</span>
+                <span>Yes</span>
               </div>
             </td>
           </tr>
@@ -121,7 +121,7 @@ function Page3() {
 
             <td>
               <div className="specific">
-                <span>Ya</span>
+                <span>Yes</span>
               </div>
             </td>
           </tr>
@@ -138,7 +138,7 @@ function Page3() {
 
             <td>
               <div className="specific negative">
-                <span>Tidak</span>
+                <span>No</span>
               </div>
             </td>
           </tr>

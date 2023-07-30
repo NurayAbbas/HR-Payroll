@@ -1,29 +1,28 @@
-import './Dashboard.css';
-import image4 from '../../assets/images/image-4.png';
-import Rectangle from '../../assets/images/Rectangle.png';
-import Rectangle1 from '../../assets/images/Rectangle-1.png';
-import Rectangle2 from '../../assets/images/Rectangle-2.png';
+import "./Dashboard.css";
+import image4 from "../../assets/images/image-4.png";
+import Rectangle from "../../assets/images/Rectangle.png";
+import Rectangle1 from "../../assets/images/Rectangle-1.png";
+import Rectangle2 from "../../assets/images/Rectangle-2.png";
 
-import Header from '../../components/Header/Header';
-import Sidebar from '../../components/Sidebar/Sidebar';
+import Header from "../../components/Header/Header";
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 function Dashboard() {
-
-
-
   return (
     <>
-    <Header/>
-    <Sidebar/>
+      <Header />
+      <Sidebar />
       <main>
         <div className="page-title">
           <div className="main-top">
             <h1>Dashboard</h1>
-            <h2>Selamat Datang di TalentCore!</h2>
+            <h2>Welcome to TalentCore!</h2>
             <img src={image4} alt="Dashboard" />
             <div className="latest">
               <select name="">
-                <option value="0" selected>Sort By: Latest</option>
+                <option value="0" selected>
+                  Sort By: Latest
+                </option>
                 <option value="1">1</option>
                 <option value="2">2</option>
               </select>
@@ -78,8 +77,12 @@ function Dashboard() {
                 </div>
               </div>
               <div className="detailes">
-                <p><i className="fa-solid fa-location-dot"></i>Bengaluru</p>
-                <p><i className="fa-solid fa-graduation-cap"></i>3 years exp.</p>
+                <p>
+                  <i className="fa-solid fa-location-dot"></i>Bengaluru
+                </p>
+                <p>
+                  <i className="fa-solid fa-graduation-cap"></i>3 years exp.
+                </p>
               </div>
               <div className="paragraph">
                 <div className="contents">
@@ -101,8 +104,12 @@ function Dashboard() {
                 </div>
               </div>
               <div className="detailes">
-                <p><i className="fa-solid fa-location-dot"></i>Remote</p>
-                <p><i className="fa-solid fa-graduation-cap"></i>2+ years exp.</p>
+                <p>
+                  <i className="fa-solid fa-location-dot"></i>Remote
+                </p>
+                <p>
+                  <i className="fa-solid fa-graduation-cap"></i>2+ years exp.
+                </p>
               </div>
               <div className="paragraph">
                 <div className="contents">
@@ -124,8 +131,12 @@ function Dashboard() {
                 </div>
               </div>
               <div className="detailes">
-                <p><i className="fa-solid fa-location-dot"></i>Remote</p>
-                <p><i className="fa-solid fa-graduation-cap"></i>2+ years exp.</p>
+                <p>
+                  <i className="fa-solid fa-location-dot"></i>Remote
+                </p>
+                <p>
+                  <i className="fa-solid fa-graduation-cap"></i>2+ years exp.
+                </p>
               </div>
               <div className="paragraph">
                 <div className="contents">
@@ -136,7 +147,6 @@ function Dashboard() {
               </div>
             </div>
           </div>
-
         </div>
       </main>
     </>
