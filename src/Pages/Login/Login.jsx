@@ -43,8 +43,8 @@ function Login() {
               </div>
             </div>
             <div className="form-text">
-              <span>Lupa Password?</span>
-              <span>Registrasi</span>
+              <span>Forgot the password?</span>
+              <span>Registration</span>
             </div>
             <button type='submit' >LOGIN</button>
             </form>

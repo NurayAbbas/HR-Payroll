@@ -24,6 +24,7 @@ function Page1() {
           <h1>Data Karyawan</h1>
           <div className="latest">
             <select name="">
+              
               <option value="0" selected>Sort By: Latest</option>
               <option value="1">1</option>
               <option value="2">2</option>
